@@ -10,7 +10,6 @@ func ConnectToLocalSystem() (*libvirt.Connect, error) {
 	if errorResult != nil {
 		return nil, errorResult
 	}
-	defer result.Close()
 
 	return result, nil
 }
