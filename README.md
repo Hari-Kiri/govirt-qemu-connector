@@ -1,2 +1,2 @@
-# govirt-qemu-connector
+# GoVirt Qemu Connector
 Go Libvirt Qemu connection library.
